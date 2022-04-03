@@ -10,4 +10,5 @@ jobs:
           - name: multi line script
             run: |
               node -v
-              npm -v  
+              npm -v
+              hostname
