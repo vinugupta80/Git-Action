@@ -5,6 +5,8 @@ jobs:
     run-github-action:
         runs-on: ubuntu-latest
         steps:
-          - name: Simple2 Java Action
-            uses: vinugupta80/terra-git@11c486f4b13a75396e48e95f69d9cdfb797b3661
-            
+          - name: list Files
+            run: |
+              pwd
+              ls
+
