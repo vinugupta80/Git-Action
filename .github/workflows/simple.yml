@@ -1,7 +1,7 @@
 name: Shell Command only on pull
 
 on: 
-  pull_on_request:
+  pull_request:
 jobs:
     run-shell-command:
         runs-on: ubuntu-latest
