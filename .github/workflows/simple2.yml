@@ -2,7 +2,7 @@ name: Action Command Simple2
 
 on:
   push:
-  #pull_request: [assigned, opened, reopened, closed]
+  pull_request: [assigned, opened, reopened, closed]
 jobs:
     run-github-action:
         runs-on: ubuntu-latest
