@@ -1,7 +1,7 @@
 name: Action Command Simple2
 
 on:
-push:
+  push:
   #pull_request: [assigned, opened, reopened, closed]
 jobs:
     run-github-action:
