@@ -1,4 +1,4 @@
-name: Shell Command only on pull test
+name: Shell Command only on pull test version2
 
 on: 
   pull_request:
